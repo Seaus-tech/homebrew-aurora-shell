@@ -1,10 +1,10 @@
 class AuroraShell < Formula
   desc "Aurora-Shell — a personalized terminal environment for macOS"
   homepage "https://github.com/Seaus-tech/Aurora-Shell"
-  url "https://github.com/Seaus-tech/Aurora-Shell/releases/download/v6.0.1/aurora-shell-v6.0.1.tar.gz"
-  sha256 "931e7f154b3bcaaf93c1ece23a7a92e607b13f13bec71feafb8664eaa082b980" # filled in after: shasum -a 256 v5.8.5.tar.gz
+  url "https://github.com/Seaus-tech/Aurora-Shell/releases/download/v6.1.0/aurora-shell-v6.1.0.tar.gz"
+  sha256 "cb994e3a1ac0ab30d7493f1ffba5b3d9cf920cec8f682117ee7cf3a5f7d596b9" # filled in after: shasum -a 256 v5.8.5.tar.gz
   license "MIT"
-  version "6.0.1"
+  version "6.1.0"
 
   depends_on "figlet"
   depends_on "lolcat"
