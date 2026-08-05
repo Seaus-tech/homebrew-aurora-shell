@@ -6,11 +6,7 @@ class AuroraShell < Formula
   license "MIT"
   version "6.2.2"
 
-  depends_on "figlet"
-  depends_on "lolcat"
   depends_on "jq"
-  depends_on "fzf"
-  depends_on "terminal-notifier" if OS.mac?
 
   def install
     # Install shared assets
