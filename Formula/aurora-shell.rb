@@ -6,7 +6,6 @@ class AuroraShell < Formula
   license "MIT"
   version "6.2.2"
 
-  depends_on "jq"
 
   def install
     # Install shared assets
